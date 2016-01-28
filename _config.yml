@@ -1,0 +1,21 @@
+########################### EDIT YOUR SETTINGS HERE
+# Site settings
+title: "Aden Dreams Of Blogging" # give your site a title
+email: "mradenjordan@gmail.com" # put your email address in here; optional
+# edit your site description; keep it brief
+description: "Brume is simple. It's easy to use. It's a Jekyll theme."
+url: http://AdenJ86.github.io # replace [username] with your github username (no brackets)
+github_username: github_username # replace with your github username
+
+########################## DO NOT EDIT BELOW HERE UNLESS YOU'RE STOKED TO HACK
+# build settings
+markdown: kramdown
+# highlighter: rouge # for local testing
+highlighter: pygments # for deployment to github pages
+permalink:  /blog/:year-:month-:day/:title.html
+kramdown:
+  input: GFM
+
+sass:
+  sass_dir: public/css
+  style: :compressed
